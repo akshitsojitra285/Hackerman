@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://img.freepik.com/premium-vector/binary-code-stream-digital-data-codes-hacker-coding-crypto-matrix-numbers-flow-digitally-blue-screen-abstract-background_102902-991.jpg?w=2000);
+    background-image: url(hman.png);
 }
 .contain{
     border-radius: 7px;
@@ -28,4 +28,15 @@ body{
     text-align: left;
     padding: 20px;
     margin: 20px;
+}
+@media screen and (max-width:480px){
+    body{
+        width: 100%;
+        min-height: 100%;
+    }
+    .contain{
+        border-radius: 7px;
+        margin: 1pc;
+        padding: 1pc;
+    }   
 }
